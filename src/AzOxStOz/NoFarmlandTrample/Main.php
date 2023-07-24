@@ -14,7 +14,7 @@ class Main extends PluginBase implements Listener {
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
     }
 
-    //VERY DIFFICULT PLUGIN HUH (someone say me to do it) ?
+    //VERY DIFFICULT PLUGIN HUH ? (imagine someone told me to do it)
     public function onEntityTrampleFarmland(EntityTrampleFarmlandEvent $event): void
     {
         $event->cancel();
